@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start:server": "nodemon ./backend/index.js",
-    "postinstall":"bower install"
+    "start:server": "nodemon ./backend/index.js"
+   
   },
   "private": true,
   "dependencies": {
