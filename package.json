@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "start:server": "nodemon ./backend/index.js",
-    "preinstall":"npm install -g angular-cli"
+    "preinstall":"npm install -g angular-cli@8.3.21"
    
   },
   "private": true,
