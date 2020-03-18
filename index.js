@@ -25,7 +25,7 @@ app.use(function(req,res,next){
 })
 
 app.use((req,res,next)=>{
-    res.sendFile(path.join(__dirname,"dist/angular-src/index.html"));
+    res.sendFile(__dirname+"dist/angular-src/index.html");
 });
 app.use(passport.initialize());
 
